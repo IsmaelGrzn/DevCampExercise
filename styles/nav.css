@@ -1,0 +1,94 @@
+.navigation-wrapper {
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper>.left-column>.logo img {
+    width: 150px;
+    padding-left: 20px;
+}
+
+.navigation-wrapper>.center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #e6d47b;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    width: 500px;
+    padding-left: 40px;
+}
+
+.navigation-wrapper>.center-column>.links-wrapper {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation-wrapper>.center-column>.links-wrapper a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+.navigation-wrapper>.center-column>.links-wrapper>.nav-link-last {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+.navigation-wrapper>.right-column>.buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    padding-right: 10px;
+}
+
+.navigation-wrapper>.right-column>.buttons-wrapper>.left-btn-wrapper button {
+    background-color: #36383f;
+    border: none;
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+    border-radius: 6px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.navigation-wrapper>.right-column>.buttons-wrapper>.left-btn-wrapper i {
+    color: greenyellow;
+    font-size: 15px;
+    font-weight: 900;
+
+}
+
+.navigation-wrapper>.right-column>.buttons-wrapper>.center-btn-wrapper button {
+    background-color: #36383f;
+    border: none;
+    color: white;
+    padding: 25px 30px;
+    text-align: center;
+    border-radius: 6px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.navigation-wrapper>.right-column>.buttons-wrapper>.right-btn-wrapper button {
+    background-color: #36383f;
+    border: none;
+    color: white;
+    padding: 25px 25px;
+    text-align: center;
+    border-radius: 6px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.navigation-wrapper>.right-column>.buttons-wrapper>.icon i {
+    font-size: 40px;
+    color: #36383f;
+}
